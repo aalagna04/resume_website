@@ -252,7 +252,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: lightgray;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -284,7 +284,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: black
+;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -301,6 +302,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
+/*
 
 #portfolio {
    background: #ebeeee;
@@ -316,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
+!* Portfolio Content *!
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -334,7 +336,7 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
-/* overlay */
+!* overlay *!
 .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -391,7 +393,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 0;
 }
 
-/* on hover */
+!* on hover *!
 .portfolio-item:hover .overlay {
    opacity: 1;
    -moz-opacity: 1;
@@ -403,7 +405,7 @@ ul#nav li.current a { color: #F06000; }
    filter:alpha(opacity=100);
 }
 
-/* popup modal */
+!* popup modal *!
 .popup-modal {
    max-width: 550px;
    background: #fff;
@@ -446,6 +448,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal a:hover {   color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+*/
 
 
 /* fadein/fadeout effect for modal popup
