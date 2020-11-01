@@ -882,6 +882,15 @@ footer .social-links li:first-child { margin-left: 0; }
    width: 60px;
    height: 60px;
    background-color: #525252;
-
    -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
+   line-height: 60px;
+   border-radius: 100%;
 }
+#go-top a:hover { background-color: #0F9095; }
