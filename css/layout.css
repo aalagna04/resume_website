@@ -535,10 +535,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+) no-repeat center center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
-   background-attachment: fixed;
+   background: #3e3d3d fixed;
 
    position: relative;
    min-height: 200px;
@@ -684,7 +684,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #242323;
    padding-top: 96px;
    padding-bottom: 102px;
    color: antiquewhite;
@@ -752,7 +752,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
    color: #fff;
-   background-color: #11ABB0;
+   background-color: #c9c1c1;
 }
 #contact button.submit {
    text-transform: uppercase;
@@ -823,13 +823,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: white;
+   color: #4c4949;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: white; }
+footer a, footer a:visited { color: #b3adad; }
 footer a:hover, footer a:focus { color: #FF512F; }
 
 /* copyright */
