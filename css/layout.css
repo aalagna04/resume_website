@@ -34,7 +34,6 @@ header {
    min-height: 500px;
    width: 100%;
    background: white url(https://cdn.glitch.com/9dc6e0db-b25c-4829-957e-3051ecf08a54%2Fbackrnd_react.jpg?v=1604261425548) no-repeat top center;
-   background: white url(https://cdn.glitch.com/9dc6e0db-b25c-4829-957e-3051ecf08a54%2Fbackrnd_react.jpg?v=1604261425548) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
@@ -67,7 +66,7 @@ header .banner-text h1 {
    color: #FF512F;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
 header .banner-text h3 {
@@ -75,7 +74,7 @@ header .banner-text h3 {
    color: white;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
 
 header .banner-text h3 span,
@@ -95,7 +94,7 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
 }
 
 header .social li {
@@ -124,7 +123,6 @@ header .scrolldown a {
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
@@ -211,7 +209,7 @@ ul#nav li.current a { color: #FF512F; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #FF512F; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -259,7 +257,7 @@ ul#nav li.current a { color: #FF512F; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #FF512F; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -268,7 +266,7 @@ ul#nav li.current a { color: #FF512F; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #FF512F;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -490,7 +488,7 @@ ul#nav li.current a { color: #FF512F; }
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
+   font-family: 'FontAwesome', serif;
    content: "\f0ac";
    padding-right: 10px;
    font-size: 72px;
@@ -691,7 +689,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #FF512F; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -737,9 +735,9 @@ call-to-action .button {
 }
 #contact input,
 #contact textarea,
-#contact select {
+#contact select {`
    padding: 18px 20px;
-   color: #eee;
+   color: white;
    background: #373233;
    margin-bottom: 42px;
    border: 0;
@@ -751,8 +749,8 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-   color: #fff;
-   background-color: #c9c1c1;
+   color: black;
+   background-color: white;
 }
 #contact button.submit {
    text-transform: uppercase;
@@ -771,7 +769,7 @@ call-to-action .button {
    background: #fff;
 }
 #contact span.required {
-   color: #11ABB0;
+   color: #FF512F;
    font-size: 13px;
 }
 #message-warning, #message-success {
@@ -783,7 +781,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #d72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #FF512F; }
 
 #message-warning i,
 #message-success i {
@@ -823,14 +821,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #4c4949;
+   color: #857d7d;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #b3adad; }
-footer a:hover, footer a:focus { color: #FF512F; }
+footer a, footer a:visited { color: #4c4848; }
+footer a:hover, footer a:focus { color: #a19696; }
 
 /* copyright */
 footer .copyright {
@@ -850,7 +848,7 @@ footer .copyright li:before {
    content: "\2022";
    padding-left: 10px;
    padding-right: 10px;
-   color: #095153;
+   color: #FF512F;
 }
 footer .copyright  li:first-child:before {
    display: none;
@@ -892,7 +890,7 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: white;
    font-size: 21px;
    line-height: 60px;
    border-radius: 100%;
