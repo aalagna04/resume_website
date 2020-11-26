@@ -64,7 +64,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font: 90px/1.1em 'Dosis', sans-serif;
     color: #FF512F;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -589,10 +589,9 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
-    background-attachment: fixed;
+    background: #252525 url(../testimonials-bg.jpg) no-repeat fixed center center;
 
     position: relative;
     min-height: 200px;
