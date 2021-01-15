@@ -91,6 +91,9 @@ header .banner-text hr {
     border-color: rgba(150, 150, 150, .1);
 }
 
+header .social-text{
+    color: #af3737;
+}
 /* header social links */
 header .social {
     margin: 24px 0;
