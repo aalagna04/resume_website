@@ -87,12 +87,13 @@ header .banner-text h3 a {
 header .banner-text hr {
     width: 60%;
     margin: 18px auto 24px auto;
+    margin: 18px auto 24px auto;
     border-color: #2F2D2E;
     border-color: rgba(150, 150, 150, .1);
 }
 
 header .social-text{
-    color: #af3737;
+    color: #FF512F;
 }
 /* header social links */
 header .social {
@@ -245,8 +246,8 @@ ul#nav li.current a {
 
 #about .profile-pic {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     border-radius: 100%;
 }
 
@@ -588,7 +589,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Quotes (testimonials)
 /* ------------------------------------------------------------------ */
 
 #testimonials {
