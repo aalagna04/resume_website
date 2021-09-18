@@ -25,7 +25,13 @@
 body {
     background: #0f0f0f;
 }
-
+/* Snake settings */
+#snake{
+    background: white;
+    padding-top: 1px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -49,7 +55,7 @@ header:before {
     vertical-align: middle;
     height: 100%;
 }
-
+/*  */
 header .banner {
     display: inline-block;
     vertical-align: middle;
@@ -287,7 +293,7 @@ ul#nav li.current a {
 #resume {
     background: lightgray;
     padding-top: 90px;
-    padding-bottom: 72px;
+    padding-bottom: 50px;
     overflow: hidden;
 }
 
@@ -592,15 +598,9 @@ call-to-action .button {
 /* g. Quotes (testimonials)
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
-    background: #252525; /*url(../testimonials-bg.jpg) no-repeat fixed center center;*/
 
-    position: relative;
-    min-height: 200px;
-    width: 100%;
-    overflow: hidden;
+#testimonials h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #testimonials .text-container {
