@@ -32,6 +32,12 @@ body {
     padding-bottom: 72px;
     overflow: hidden;
 }
+
+#ds-project{
+    background: white;
+    padding-top: 1px;
+    padding-bottom: 72px;
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
