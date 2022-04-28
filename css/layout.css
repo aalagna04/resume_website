@@ -253,7 +253,7 @@ ul#nav li.current a {
 
 #about p {
     line-height: 30px;
-    color: antiquewhite;
+    color: #fff;
 }
 
 #about .profile-pic {
@@ -805,7 +805,7 @@ call-to-action .button {
     background: #191919;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: antiquewhite;
+    color: #fff;
 }
 
 #contact .section-head {
@@ -840,7 +840,7 @@ call-to-action .button {
     line-height: 72px;
     text-align: left;
     float: left;
-    color: #ebeeee;
+    color: #fff;
 }
 
 #contact h4 {
@@ -897,7 +897,7 @@ call-to-action .button {
 #contact button.submit {
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: antiquewhite;
+    color: #fff;
     background: black;
     border: none;
     cursor: pointer;
@@ -913,7 +913,7 @@ call-to-action .button {
 }
 
 #contact span.required {
-    color: #11ABB0;
+    color: #fff;
     font-size: 13px;
 }
 
