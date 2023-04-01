@@ -2,7 +2,6 @@ import React from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import {CircularProgress} from '@mui/material';
-import Footer from "./Footer";
 
 export default function Contact() {
     const [disable, setDisable] = React.useState(false);
@@ -107,7 +106,6 @@ export default function Contact() {
                     )}
                 </form>
             </div>
-         <Footer/>
         </section>
     );
 }

@@ -2,6 +2,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import About from "./About";
+import Footer from "./Footer";
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
       <Skills />
       {/* <Testimonials /> */}
       <Contact />
+      <Footer />
     </>
   );
 }

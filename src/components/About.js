@@ -1,13 +1,7 @@
 import React from "react";
-import Projects from "./Projects";
-import Skills from "./Skills";
-import Contact from "./Contact";
 import { HashLink as Link } from 'react-router-hash-link';
-import {useNavigate} from "react-router-dom";
 
 export default function About() {
-  const navigate = useNavigate();
-
   return (
     <>
       <section id="about">
@@ -64,12 +58,12 @@ export default function About() {
                   ></path>
                 </svg>
               </a>
-              <button
+              <Link
                 className="inline-flex items-center text-center text-white bg-green-800 hover:bg-green-700 duration-500 border-0 h-10 px-5 rounded focus:outline-none text-lg mb-5"
-                onClick={() => navigate("/snake")}
+                to="/snake"
               >
                 Play Snake
-              </button>
+              </Link>
             </ul>
             <div className="flex justify-center">
               <Link
@@ -94,11 +88,6 @@ export default function About() {
           />
         </div>
       </section>
-
-      <Projects id="projects" />
-      <Skills />
-      {/* <Testimonials /> */}
-      <Contact />
     </>
   );
 }

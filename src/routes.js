@@ -1,5 +1,5 @@
 import {Route, Routes} from "react-router-dom";
-import Index from "./components/About";
+import Index from "./components/Index";
 import PlaySnake from "./components/Snake";
 
 
