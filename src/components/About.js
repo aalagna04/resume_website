@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <section id="about">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-10">
+        <div className="container mx-auto flex py-20 md:flex-row flex-col items-center mt-5">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white mt-5 ">
               Hi, my name is Andrew Alagna.
@@ -21,7 +21,7 @@ export default function About() {
               Graduated from CUNY: Hunter College with a BA in Computer Science, Cum
               Laude.
             </p>
-            <ul className="flex lg:flex-row space-x-4 flex-row list-none mb-5">
+            <ul className="flex lg:flex-row space-x-4 flex-row list-none">
               <a
                 href="https://www.linkedin.com/in/andrew-a-10b88215b/"
                 rel="noreferrer"
@@ -65,24 +65,10 @@ export default function About() {
                 Play Snake
               </Link>
             </ul>
-            <div className="flex justify-center">
-              <Link
-                to="#contact"
-                className="duration-500 inline-flex text-white bg-lime-700 border-0 py-2 px-6 focus:outline-none hover:bg-lime-600 rounded text-lg"
-              >
-                Work With Me
-              </Link>
-              <Link
-                to="#projects"
-                className="ml-4 inline-flex text-gray-300 bg-indigo-800 duration-500 hover:bg-indigo-700 border-0 py-2 px-6 focus:outline-none hover:text-white rounded text-lg"
-              >
-                Past Work
-              </Link>
-            </div>
           </div>
 
           <img
-            className="object-cover object-center rounded mx-auto sm:h-80 h-80"
+            className="object-cover object-center rounded mx-auto h-80"
             alt="Andrew Alagna"
             src="https://i.imgur.com/xIkAKHZ.jpg"
           />

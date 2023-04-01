@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
   let Links = [
-    { name: "Past Work", link: "#projects" },
+    { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
     { name: "Play Snake", link: "snake" },
   ];
