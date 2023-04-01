@@ -5,10 +5,10 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="body-font mt-5">
-      <div className="container px-5 mx-auto text-center lg:px-40 ">
-        <div className="flex flex-col w-full sm:mb-16">
+      <div className="container px-5 mx-auto text-center">
+        <div className="flex flex-col w-full pb-10">
           <CodeIcon className="mx-auto inline-block w-10 mb-1" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white underline-offset-4 underline mb-4">
+          <h1 className="text-4xl text-3xl font-medium title-font text-white underline-offset-4 underline mb-4">
             Recent Apps
           </h1>
           <p>Hover on the gif to see a summary.</p>
