@@ -21,7 +21,7 @@ export default function Navbar() {
           <span className=" text-2xl text-lime-700 mr-1 pt-2">
             <ion-icon name="globe"></ion-icon>{" "}
           </span>
-          Andrew Alagna
+          Home
         </Link>
         <div
           onClick={() => setOpen(!open)}

@@ -15,18 +15,18 @@ export default function About() {
               who want to solve meaningful problems with software.
               <br />
               <br />
-              I enjoy learning about technology and find pride in understanding complex problems.
+              I enjoy learning about technology and taking my time to understanding complex problems.
               <br />
               <br />
               Graduated from CUNY: Hunter College with a BA in Computer Science, Cum
               Laude.
             </p>
-            <ul className="flex lg:flex-row space-x-4 flex-row list-none">
+            <ul className="flex lg:flex-row mt-3 space-x-4 flex-row list-none">
               <a
                 href="https://www.linkedin.com/in/andrew-a-10b88215b/"
                 rel="noreferrer"
                 target="_blank"
-                class="mb-6 inline-flex items-center h-10 p-3 text-gray-300 bg-gray-800 hover:bg-gray-700 transition-colors duration-500 rounded focus:shadow-outline hover:text-white  "
+                class="mb-6 inline-flex items-center h-10 p-2 text-gray-300 bg-gray-800 hover:bg-gray-700 transition-colors duration-500 rounded focus:shadow-outline hover:text-white  "
               >
                 <svg
                   class=" hover:text-white w-6 text-blue-500 fill-current duration-700 "

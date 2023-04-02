@@ -43,15 +43,12 @@ export default function Contact() {
                 <form
                     onSubmit={sendEmail}
                     name="contact"
-                    className="lg:w-1/2 flex flex-col mx-auto w-full md:py-3 mt-4 md:mt-0"
+                    className="lg:w-1/3 w-full sm:w-2/3 flex flex-col space-y-5 mx-auto w-full md:py-3 mt-4 md:mt-0"
                 >
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font underline-offset-4 underline">
-                        Work With Me <ion-icon name="happy"></ion-icon>
+                        Contact Me <ion-icon name="happy"></ion-icon>
                     </h2>
-                    <p className="leading-relaxed mb-5 mt-2">
-                        Send me a message with the form below
-                    </p>
-                    <div className="relative mb-4">
+                    <div>
                         <label htmlFor="name" className="leading-7 text-sm ">
                             Name
                         </label>
@@ -63,7 +60,7 @@ export default function Contact() {
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
                     </div>
-                    <div className="relative mb-4">
+                    <div>
                         <label htmlFor="email" className="leading-7 text-sm ">
                             Email
                         </label>
@@ -75,7 +72,7 @@ export default function Contact() {
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
                     </div>
-                    <div className="relative mb-4">
+                    <div>
                         <label htmlFor="message" className="leading-7 text-sm">
                             Message
                         </label>
@@ -89,7 +86,7 @@ export default function Contact() {
                         <button
                             disabled={disable}
                             type="submit"
-                            className="text-white bg-indigo-600 border-0 py-2  focus:outline-none hover:bg-indigo-500 duration-500 rounded text-lg"
+                            className="text-white bg-indigo-600 border-0 py-2 focus:outline-none hover:bg-indigo-500 duration-500 rounded text-lg"
                         >
                             Send
                         </button>
