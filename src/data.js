@@ -56,10 +56,10 @@ export const projects = [
   },
 ];
 export const skills = [
-  "Python",
-  "Git/Github",
-  "CSS/HTML",
   "JavaScript (ReactJS, TypeScript)",
+  "CSS + HTML",
+  "Python",
+  "Git + Github",
   "C#",
   "C++",
   "SQL (SQLite, MySQL, PostgreSQL)",
