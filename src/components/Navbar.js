@@ -3,10 +3,12 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
+  const isWebBrowser = !/Mobi|Android|Tablet/i.test(window.navigator.userAgent);
+
   let Links = [
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
-    { name: "Play Snake", link: "snake" },
+    isWebBrowser && { name: "Play Snake", link: "snake" },
   ];
   const location = useLocation();
   let [open, setOpen] = useState(false);
@@ -39,7 +41,7 @@ export default function Navbar() {
             <li
               onClick={() => setOpen(!open)}
               key={link.name}
-              className="md:ml-8 text-xl md:my-0 my-7"
+              className="md:ml-7 text-xl md:my-0 my-7"
             >
               <Link
                 to={location.pathname === "/" ? link.link : `/${link.link}`}
@@ -49,11 +51,11 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="md:ml-8 text-xl md:my-0 my-7">
+          <li className="md:ml-6 text-xl md:my-0 my-7">
             <Link
               onClick={() => setOpen(!open)}
               to={location.pathname === "/" ? "#contact" : "/#contact"}
-              className="inline-flex items-center top-0 right-0 bg-lime-700 text-white font-[Poppins] py-2 px-6 rounded md:ml-4 hover:bg-lime-600
+              className="inline-flex items-center top-0 right-0 bg-lime-700 text-white font-[Poppins] py-2 px-6 rounded md:ml-1 hover:bg-lime-600
     duration-500"
             >
               Contact
