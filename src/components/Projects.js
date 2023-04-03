@@ -11,7 +11,7 @@ export default function Projects() {
           <h1 className="text-4xl text-3xl font-medium title-font text-white underline-offset-4 underline mb-4">
             Recent Apps
           </h1>
-          <p>Hover on the gif to see a summary.</p>
+          <p className="hidden sm:block">Hover on each gif to see the project summary.</p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
