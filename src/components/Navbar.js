@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
-  const isWebBrowser = !/Mobi|Android|Tablet/i.test(window.navigator.userAgent);
-
+  const isWebBrowser = !/Mobile|Android|Tablet|iPad/i.test(window.navigator.userAgent);
+  console.log(isWebBrowser)
   let Links = [
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
